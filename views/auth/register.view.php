@@ -17,6 +17,7 @@
     <p><?= $errors["password"] ?></p>
   <?php } ?>
   <button>Register</button>
+  
 </form>
 
 <?php require "views/components/footer.php" ?>

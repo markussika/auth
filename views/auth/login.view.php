@@ -17,6 +17,11 @@
     <p><?= $errors["password"] ?></p>
   <?php } ?>
   <button>Login</button>
+  <a href="register">register</a>
 </form>
+
+<?php if (isset($_SESSION["flash"])){?>
+  <p class="flash"><?= $_SESSION["flash"] ?></p>
+<?php } ?>
 
 <?php require "views/components/footer.php" ?>

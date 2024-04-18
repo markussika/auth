@@ -2,8 +2,8 @@
 
 return [
   "host" => "localhost",
-  "dbname" => "auth",
+  "dbname" => "auth_sika",
   "user" => "root",
-  "password" => "root",
+  "password" => "",
   "charset" => "utf8mb4"
 ];

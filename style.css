@@ -11,3 +11,20 @@ input {
   border: 1px solid red;
   /* border: 1px solid red; */
 }
+.flash{
+   opacity: 0;
+   animation: disappear 3s;
+   
+}
+
+@keyframes disappear {
+  0%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0
+  }
+}

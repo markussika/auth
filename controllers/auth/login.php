@@ -1,5 +1,8 @@
 <?php
 
+guest();
+
+
 require "Validator.php";
 require "Database.php";
 $config = require("config.php");
@@ -26,6 +29,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["user"] = true;
     $_SESSION["email"] = $_POST["email"];
     echo $_SESSION["email"];
+    header("Location: /");
+    die();
   }
 }
 
