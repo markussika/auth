@@ -1,0 +1,13 @@
+label {
+  display: block;
+}
+
+.explanation {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+input {
+  border: 1px solid red;
+  /* border: 1px solid red; */
+}
